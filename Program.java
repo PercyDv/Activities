@@ -14,12 +14,9 @@ public class Program {
         rect.w = kb.nextDouble();
         rect.h = kb.nextDouble();
 
-        System.out.printf("AREA = %.2f", rect.area());
-    }
-
-        System.out.printf("PERIMETER = %.2f", rect.perimenter());
-        
-        System.out.printf("DIAGONAL = %.2f", rect.diagonal());
+        System.out.printf("AREA = %.2f%n", rect.area());
+        System.out.printf("PERIMETER = %.2f%n", rect.perimeter());
+        System.out.printf("DIAGONAL = %.2f%n", rect.diagonal());
 
         kb.close();
     }

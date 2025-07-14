@@ -7,7 +7,7 @@ public class Rectangle {
     public double area() {
         return w*h;
     }
-    public double perimenter() {
+    public double perimeter() {
         return 2*(h+w);
     }
     public double diagonal () {
