@@ -11,6 +11,6 @@ public class Rectangle {
         return 2*(b+w);
     }
     public double Diagonal () {
-        return Math.sqrt(Math.pow(w, 2) + Math.pow(h, 2));
+        return Math.sqrt(w*w + h*h);
     }
 }
