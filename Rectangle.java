@@ -4,13 +4,13 @@ public class Rectangle {
     public double w;
     public double h;
 
-    public double Area() {
+    public double area() {
         return w*h;
     }
-    public double Perimenter() {
-        return 2*(b+w);
+    public double perimenter() {
+        return 2*(h+w);
     }
-    public double Diagonal () {
+    public double diagonal () {
         return Math.sqrt(w*w + h*h);
     }
 }
